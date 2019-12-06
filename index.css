@@ -1,3 +1,46 @@
-img{
- size: 50%;
+
+img {
+    max-width:25%;
+    float:right;
+    margin-right: 100px;
+    border-style:double;
+    border-color:orange;
+    border-width:20px;
+}
+body{
+    background-color: lavender;
+    font-family:sans-serif;
+    text-align: justify;
+    line-height:1.6;
+    font-size:1.3em;
+}
+
+h1{
+    text-align: center; 
+    border-style:dotted;
+    border-color:salmon;
+    background-color: salmon;
+    color:black;
+}
+.typewriter h1 {
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+h2{
+   color:mediumvioletred;
+}
+h3{
+    color:mediumpurple;
+}
+p{
+    width: 60%;
 }
